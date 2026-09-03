@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Profissional - Elis Vieira</title>
 </head>
+
 <body>
+
+    <header>
 <h1> Portifólio Profissional - Elis Vieira</h1>
 <p>Bem-vindo ao meu portfólio profissional! Aqui você encontrará informações sobre minha experiência, habilidades e projetos que desenvolvi ao longo da minha carreira.</p>
+</header>
 
-<h2> Áreas de Atuação</h2>
+<main>
+<section> 
+    <h2> Áreas de Atuação</h2>
 <ul>
     <li> Controladoria Jurídica </li>
     <li> Gestão de Processos </li>
     <li> Técnologia e Análise de Dados</li>
 </ul>
-<h2>Projetos</h2>
+</section>
+<section> 
+    <h2>Projetos</h2>
 
 <table>
     <tr>
@@ -31,8 +40,10 @@
         <td>Gestão de Projetos e Processos</td>
     </tr>
 </table> 
+</section>
 
-<h2>Onde me encontrar</h2>
+<section>
+    <h2>Onde me encontrar</h2>
 
 <a href="https://www.linkedin.com/in/elisvieiravital/" target="_blank" rel="noopener noreferrer">
     Meu LinkedIn
@@ -41,6 +52,37 @@
 
 <img src="assets/images/imagem_ativ.jpg" alt="Imagem relacionada à tecnologia e desenvolvimento web">
 
-</body>
+</section>
+<section>
+    <h2>Entre em contato</h2>
 
+    <form>
+        <fieldset>
+    <legend>Formulário de contato</legend>
+
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" required>
+
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" name="telefone" pattern="[0-9]{10,11}" required>
+
+<label for="data">Data de interesse:</label>
+<input type="date" id="data" name="data">
+
+<button type="submit">Enviar</button>
+
+</fieldset>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Elis Vieira. Projeto desenvolvido para a disciplina Frontend para Web.</p>
+</footer>
+
+</body>
 </html>
